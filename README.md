@@ -1,54 +1,60 @@
 # SWC3524-Project
 Marketing Campaign Optimization (MCOP)
 
-This project applies multiple algorithmic techniques to solve the Marketing Campaign Optimization Problem (MCOP), which is comparable to the Travelling Salesman Problem (TSP). The system is designed to determine the most efficient route for visiting several locations while minimizing the overall cost.
+Project Overview
 
-Algorithms Used
+This project focuses on solving the Marketing Campaign Optimization Problem (MCOP) by applying several algorithmic approaches. The problem is conceptually similar to the Travelling Salesman Problem (TSP), where the goal is to identify the most cost-efficient path that visits multiple locations and returns to the starting point.
 
-Divide and Conquer
+The system is built to compute an optimal route while minimizing overall travel cost, demonstrating how different algorithms and data structures can be applied in a practical scenario.
+
+Techniques Implemented
+
+Algorithm Approach
+
+Divide and Conquer strategy
 
 Data Structures
+
 Min Heap
 Max Heap
 Splay Tree
-HOW TO RUN
 
-Open the project in any Java IDE such as VS Code, IntelliJ, or Eclipse.
+execution Guide
 
-Run the following file:
+To run the program:
+
+Open the project using any Java IDE (e.g., VS Code, IntelliJ IDEA, Eclipse).
+
+Locate and execute the file:
 
 UPTMMarketingOptimization.java
 
-After execution, the program will display:
+Example Result
+MCOP ROUTE RESULT
+Route: UPTM -> City B -> City D -> City C -> UPTM
+Total Cost: 88
 
-The MCOP route along with the total cost
-A demonstration of the Splay Tree
-Examples of Min Heap and Max Heap operations
-SAMPLE OUTPUT
+SPLAY TREE TEST
+Search 10 (1st time): Found
+Current Root: 10
+Search 10 (2nd time): Found
+Current Root: 10
 
---- MCOP RESULTS ---
-Divide & Conquer Route: UPTM -> City B -> City D -> City C -> UPTM | Total Cost: 88
+MIN HEAP EXAMPLE
+Heap Elements: [3, 5, 15, 10]
+Removed Element: 3
+Updated Heap: [5, 10, 15]
 
---- SPLAY TREE DEMO ---
-First search (10): true
-Root after first search: 10
-Second search (10): true
-Root after second search: 10
+MAX HEAP EXAMPLE
+Heap Elements: [15, 3, 10]
+Removed Element: 15
+Updated Heap: [10, 3]
 
---- MIN HEAP DEMO ---
-Min Heap: [3, 5, 15, 10]
-Removed: 3
-After removal: [5, 10, 15]
+Additional Information
+All implementations are contained within a single Java file
+Heap structures are built using Java’s built-in PriorityQueue
+The Splay Tree includes basic self-adjusting operations for illustration
+Route sequences may differ slightly, but the total cost remains optimized
 
---- MAX HEAP DEMO ---
-Max Heap: [15, 3, 10]
-Removed: 15
-After removal: [10, 3]
-
-Notes
-All functionalities are implemented within a single file: UPTMMarketingOptimization.java
-The program utilizes Java’s PriorityQueue to implement heap structures
-The Splay Tree is implemented with basic splaying operations for demonstration purposes
-The route output may vary slightly, but the total cost remains optimal
-
-by: Altaf Adib Haiqal Bin Azli
+Developed by:
+Altaf Adib Haiqal Bin Azli
